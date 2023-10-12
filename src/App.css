@@ -229,21 +229,30 @@ img {
 .contactus {
   width: 80%;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
+
 .about-head {
   margin-top: 120px;
   display: inline-flex;
   flex-direction: row;
   justify-content: end;
 }
+.contact-content {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-content form {
+  margin-bottom: 17rem;
+}
 .contact-head {
-  margin-top: 120px;
+  width: 100%;
   display: inline-flex;
   flex-direction: row;
   justify-content: end;
+  margin-bottom: 3rem;
 }
 .about-body {
   margin-top: 30px;
@@ -251,6 +260,67 @@ img {
   background-color: #d9d9d9;
   /* margin-bottom: 400px; */
   padding: 50px;
+}
+.contact-email {
+  background: #d9d9d9;
+  color: black;
+  width: 375px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+.contact-email .contact-email-icon {
+  width: 30px;
+  height: 30px;
+}
+.contact-email input {
+  background: transparent;
+  height: 30px;
+  width: 20rem;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+  border-bottom: 2px solid #413d3d;
+}
+.contact-email input:focus {
+  color: #000;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #413d3d;
+}
+.contact-message {
+  background: #d9d9d9;
+  color: black;
+  width: 375px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  margin-top: 1rem;
+}
+.contact-message-icon {
+  width: 30px;
+  height: 30px;
+}
+.contact-message input {
+  background: transparent;
+  height: 30px;
+  width: 20rem;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+  border-bottom: 2px solid #413d3d;
+}
+.contact-message input:focus {
+  color: #000;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #413d3d;
 }
 
 /* Responsive Styles for Phones and Tablets */
