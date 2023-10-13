@@ -74,7 +74,7 @@ const Header = () => {
                   <Link to="/contactus">
                     <h2 onClick={HandleMenuClose}>Contact us</h2>
                   </Link>
-                  <Link to="/loginsignup">
+                  <Link to="/Login">
                     <h2 className="login" onClick={HandleMenuClose}>
                       LOGIN OR SIGN UP
                     </h2>

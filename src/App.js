@@ -4,6 +4,8 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Aboutus from "./components/Aboutus";
 import Contactus from "./components/Contactus";
+import Login from "./components/Login";
+import Register from "./components/Register";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -21,6 +23,12 @@ function App() {
             </Route>
             <Route path="/contactus">
               <Contactus />
+            </Route>
+            <Route path="/login">
+              <Login />
+            </Route>
+            <Route path="/register">
+              <Register />
             </Route>
           </div>
         </Switch>
