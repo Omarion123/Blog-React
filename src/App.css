@@ -307,6 +307,7 @@ img {
   width: 30px;
   height: 30px;
 }
+
 .contact-message input {
   background: transparent;
   height: 30px;
@@ -321,6 +322,153 @@ img {
   border: none;
   outline: none;
   border-bottom: 2px solid #413d3d;
+}
+.contact-button {
+  background: #f79918;
+  color: black;
+  width: 375px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+.contact-button-send {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.login {
+  height: 76vh;
+}
+.login-username {
+  background: transparent;
+  color: black;
+  width: 450px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+  /* border-radius: 12px; */
+  margin-top: 1rem;
+  border-bottom: 2px solid #000;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 18rem;
+}
+.login-header {
+  background: linear-gradient(
+    to right,
+    rgba(247, 153, 24, 1) 5%,
+    rgba(247, 153, 24, 0) 100%
+  );
+  color: black;
+  width: 450px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-top-right-radius: 49px;
+  margin-top: 1rem;
+}
+.login-header p {
+  margin-right: 1rem;
+}
+.click-to-register {
+  color: #f79918;
+  text-decoration: underline;
+  border-bottom: 1px solid #000;
+}
+.click-to-register a {
+  text-decoration: none;
+  color: #f79918;
+}
+.login-username input {
+  width: 100%;
+  margin-bottom: 0.2rem;
+  border: none;
+  outline: none;
+}
+.login-username input:focus {
+  border: none;
+  outline: none;
+  color: #000;
+}
+.login-password {
+  background: transparent;
+  color: black;
+  width: 450px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+  /* border-radius: 12px; */
+  margin-top: 1rem;
+  border-bottom: 2px solid #000;
+}
+.login-password input {
+  width: 100%;
+  width: 100%;
+  margin-bottom: 0.2rem;
+  border: none;
+  outline: none;
+}
+.login-password input:focus {
+  border: none;
+  outline: none;
+  color: #000;
+}
+.login-password-hide-icon {
+  width: 30px;
+  height: 30px;
+}
+.forgot-password {
+  background: transparent;
+  color: black;
+  width: 450px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: end;
+  border-radius: 12px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.forgot-password a {
+  border-bottom: 1px solid #f79918;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+.login-button {
+  background: #f79918;
+  color: black;
+  width: 450px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  margin-top: 1rem;
+  cursor: pointer;
+  box-shadow: 12px 7px 13px 0px rgba(0, 0, 0, 0.75);
+}
+.register-button {
+  margin-top: 6rem;
 }
 
 /* Responsive Styles for Phones and Tablets */
